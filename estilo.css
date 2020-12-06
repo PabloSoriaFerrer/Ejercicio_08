@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+}
+
+div {
+    background-color: lightyellow;
+    border: black;
+    margin: 10px;
+    width: 50%;
+}
+
+div.a td {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+}
+  
+div.a th {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+div.b th {
+    border-top: none;
+    border-bottom: none;
+}
+  
+div.b td {
+    border-top: none;
+    border-bottom: none;
+    font-size: 150%;
+    width: 1.5em;
+}
+
+div.c th {
+    text-align: center;
+}
+
+div.c td {
+    width: 4em;
+    height: 4em;
+    font-size: 70%;
+    vertical-align: top;
+}
